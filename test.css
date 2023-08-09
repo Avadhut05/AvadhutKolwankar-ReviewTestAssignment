@@ -1,0 +1,675 @@
+body
+{
+    background-color: white;
+}
+
+#HeaderSection 
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 10px;
+}
+
+#navbarNav
+{
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 421px;
+    gap: 149px;
+}
+
+#NavBar2
+{
+    display: inline;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* gap: 30px; */
+}
+
+#ThirdSection 
+{
+    background-image: url(./images/tkr.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 18px 0px 45px 85px;
+    
+}
+
+#ThirdSection #ts 
+{
+    color: white;
+}
+
+#ThirdSection #ts p span
+{
+    color: red;
+}
+
+#ts button
+{
+    background-color: dodgerblue;
+    padding: 13px 29px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+#FourthSection
+{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    position: relative;
+    color: black;
+    font-weight: 100;
+    padding: 10px 0px 10px 82px;
+    border-bottom: 1px solid lightslategray;
+}
+#Overview
+{
+    border-bottom: 1px dashed dodgerblue;
+}
+
+#Overview img
+{
+    margin-left: 881px;
+    margin-top: -392px;
+}
+
+#InfoSection
+{
+    padding-left: 82px;
+}
+
+#InfoSection ul
+{
+    padding-left: 17px;
+}
+
+#InfoSection ul li 
+{
+    list-style-type: circle;
+    padding-left: 1px;
+}
+
+#FAQs {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#FAQs ul{
+    padding-left: 0px;
+}
+
+#FAQs ul li
+{
+    border-top: 1px solid lightslategray;
+    list-style-type: "+";
+    padding: 10px 0px 10px 10px;
+}
+
+#ss p
+{
+    border: 2px solid dodgerblue;
+    border-right: none;
+    display: none;
+    padding: 11px;
+    font-size: 14px;
+}
+#FAQs #last
+{
+    border-bottom: 1px solid lightslategray;
+}
+
+#fq
+{
+    border-bottom: 2px dashed deepskyblue;
+}
+
+#Patient
+{
+    padding-bottom: 90px;
+}
+
+#video
+{
+    width: 20%;
+    border: 1px solid lightgray;
+    /* box-shadow: 10px 0px 0px grey; */
+    padding: 1rem;
+    margin-top: 2rem;
+}
+#video .vid
+{
+    width: 286px;
+    height: 124px;
+    margin-top: -20px;
+}
+
+#video img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#video #np
+{
+    padding-left: 111px;
+    padding-bottom: 11px;
+    margin-top: -75px;
+}
+#review 
+{
+    width: 20%;
+    border: 1px solid lightgray;
+    /* box-shadow: 10px 0px 0px grey; */
+    padding: 1rem;
+    margin-left: 21rem;
+    margin-top: -325px;
+}
+#review h3
+{font-weight: 600;}
+
+#review img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+#review #np
+{
+    padding-left: 111px;
+    padding-bottom: 11px;
+    margin-top: -75px;
+}
+
+#Doctors 
+{
+    background-color: gainsboro;
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+}
+/*
+#Doctors h3,h1
+{
+    /* padding-left: 10px; 
+    text-align: center;
+}
+
+#Doctors div 
+{
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin-left: 104px;
+}
+#d1
+{
+    padding-left: 308px;
+}
+#p1
+{
+    padding-left: 200px;
+    margin-top: 100px;
+}
+#d2
+{
+    padding-left: 550px;
+    margin-top: -200px;
+}
+/* #p2
+{
+     padding-left: 550px; 
+     margin-top: -200px; 
+} */
+/* #d3
+{
+    padding-left: 900px;
+    margin-top: -200px;
+} */
+/* #p3
+{
+     padding-left: 550px; 
+     margin-top: -200px; 
+} */ */
+#Hospitals
+{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#Touch
+{
+    background-color: dodgerblue;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#Touch h3
+{
+    font-size: 20px;
+    font-weight: 100;
+    word-spacing: 2px;
+}
+
+#Touch h1
+{
+    font-size: 36px;
+    font-weight: 400;
+    word-spacing: 8px;
+}
+
+#Touch button
+{
+    background-color: mediumblue;
+    width: 152px;
+    height: 38px;
+    color: white;
+    border: none;
+}
+
+#Bottom
+{
+    background-image: url(./images/bkgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#div1
+{
+    justify-content: center;
+    display: flex;
+    gap: 34px;
+    color: white;
+    border-bottom: 1px solid lightslategray;
+}
+
+.abc ul h4
+{
+    margin-top: 35px;
+    margin-left: -22px;
+}
+
+#div2
+{
+    justify-content: center;
+    display: flex;
+    gap: 112px;
+    color: white;
+}
+
+#div2 img
+{
+    margin-top: 100px;
+}
+
+#div2 ul
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    padding-left: 0px;
+}
+
+.fa.fa-facebook-square
+{
+    font-size: 20px;
+    color: blue;
+}
+.fa.fa.fa-twitter-square
+{
+    font-size: 20px;
+    color: dodgerblue;
+}
+.fa.fa-instagram
+{
+    font-size: 20px;
+    color: indianred;
+}
+.fa.fa-youtube-square
+{
+    font-size: 20px;
+    color: red;
+}
+::marker{
+    color: blue;
+}
+.ab{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.fa.fa-user-md,.fa.fa-phone,.fa.fa-envelope-open-o{
+    font-size: 3rem;
+}
+.ab p{
+    margin-bottom: 0;
+}
+.ab img{
+    width: 3rem;
+    position: absolute;
+    left: -15%;
+}
+.ab select{
+    border: none;
+    outline: none;
+}
+form{
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+form #help
+{
+    color: dodgerblue;
+}
+
+form input{
+    display: block;
+    width: 90%;
+    height: 3rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+form button
+{
+    width: 95%;
+    height: 3rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+#Eligibility,#Preparation,#About,#Post-Treatment{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+#treat,#prep,#au,#pt{
+ 
+    border-bottom: 2px dashed deepskyblue;
+}
+
+#NavBar2 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    background-color: dodgerblue;
+    padding-left: 85px;
+    color: white;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#NavBar2 #searchbar
+{
+    background-color: mediumblue;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+#NavBar2 input
+{
+    background-color: mediumblue;
+    border: none;
+}
+
+#NavBar2 input::placeholder
+{
+    color: white;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+.container
+{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;   
+}
+.cards
+{
+    width: 24%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 5);
+}
+.cards:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(232, 84, 111, 0.25);
+}
+
+.container .heading h4
+{
+    font-family: serif ;
+    font-style: italic;
+    color: red;
+}
+.container .heading span
+{
+    color: rgb(62, 62, 252);
+}
+
+.cards .pic
+{
+    height: 200px;
+    margin: 10px;
+    width: 270px;
+    padding: 16px;
+    justify-content: center;
+    background-color: palevioletred;
+}
+.cards .txt
+{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.row .cards h4
+{
+    font-style: italic;
+    color: red;
+}
+.row .cards p
+{
+    font-size: 14px;
+}
+.row .cards p:first-child
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/*Hospital*/
+.hcontainer
+{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.hheading
+{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.hrow
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;   
+}
+.hcards
+{
+    width: 24%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 5);
+}
+.hcards:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(232, 84, 111, 0.25);
+}
+
+.hcontainer .hheading h4
+{
+    font-family: serif ;
+    font-style: italic;
+    color: red;
+}
+.hcontainer .hheading span
+{
+    color: rgb(62, 62, 252);
+}
+
+.hcards .hpic
+{
+    height: 200px;
+    margin: 10px;
+    width: 270px;
+    padding: 16px;
+    justify-content: center;
+    background-color: cyan;
+}
+.hcards .htxt
+{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.hrow .hcards h4
+{
+    font-style: italic;
+    color: red;
+}
+.hrow .hcards p
+{
+    font-size: 14px;
+}
+.hrow .hcards p:first-child
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.hcontainer #lc
+{
+    text-align: center;
+    font-size: 20px;
+}
+.hcontainer #lc span
+{
+    color: red;
+    text-decoration: underline;
+}
+
+#FooterSection
+{
+    background-color: dodgerblue;
+    color: white;
+    display: flex;  
+    font-weight: lighter;  
+}
+
+#fs1
+{
+    padding-left: 100px;
+}
+#fs2
+{
+    padding-left: 35rem;
+}
+#fs3
+{
+    padding-left: 30px;
+}
+
+#cs
+{
+    margin-bottom: 0px;
+}
+
+#csn
+{
+    margin-top: 0px;
+    color: dodgerblue;
+}
+
+#menu
+{
+    display: none;
+}
+
+/* @media(max-width:600px)
+{
+    #NavBar2
+    {
+        display: none;
+    }
+    #menu
+    {
+        display:inline-block;
+        color: white;
+        background-color: gray;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+    body
+    {
+        background-size: 200%;
+        background-position-x: center;
+    }
+} */
