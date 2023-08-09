@@ -30,7 +30,7 @@ body
 
 #ThirdSection 
 {
-    background-image: url(./images/tkr.jpeg);
+    background-image: url(../images/tkr.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 18px 0px 45px 85px;
@@ -282,7 +282,7 @@ body
 
 #Bottom
 {
-    background-image: url(./images/bkgimg.jpg);
+    background-image: url(../images/bkgimg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
